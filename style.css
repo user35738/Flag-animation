@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section
+{
+ position: relative;
+ width: 100%;
+ height: 100vh;
+ background: #000;
+ transform-style: preserve-3d;
+ perspective: 1000px;
+ overflow: hidden;
+}
+
+.container
+{
+ position: relative;
+ width: 100%;
+ height: 100vh;
+ display: flex;
+}
+
+.container span
+{
+    width: 0.5vw;
+    height: 100%;
+    background: #001489;
+    border-top: 33.333vh solid #D90012;
+    border-bottom: 33.333vh solid #FF9E1B;
+}
